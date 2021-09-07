@@ -1,0 +1,7 @@
+# solution of bluetooth headphone not getting connected.
+so , lets start
+open terminal
+type the following command:-\
+$ sudo apt-get install pulseaudio-module-bluetooth
+$ pactl load-module module-bluetooth-discover
+Now try to connect......
